@@ -13,8 +13,17 @@ html, body {
     font-family: "Inter", sans-serif;
 }
 
+/*body.dark-mode {*/
+/*    background: #0B0E14;*/
+/*    color: #ffffff;*/
+/*}*/
 body.dark-mode {
-    background: #0B0E14;
+    background-color: #0B0E14;
+    background-image: url('background.jpg');
+    /*background-size: cover;          !* fills the screen, preserves aspect ratio *!*/
+    background-repeat: no-repeat;    /* prevents tiling */
+    background-position: top;     /* keeps it centered */
+    background-attachment: fixed;    /* optional: makes it stay fixed while scrolling */
     color: #ffffff;
 }
 
@@ -157,7 +166,7 @@ body.light-mode {
 
 .hero {
     width: 100%;
-    padding: 140px 30% 160px;
+    padding: 140px 20px 160px;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -251,16 +260,16 @@ body.light-mode {
 .hero-title {
     font-size: 2.4rem;
     font-weight: 700;
-    max-width: 900px;
-    margin: 0 auto 18px;
+    max-width: 650px;
+    margin: 0 auto 40px;
     text-align: left;
 }
 
 .hero-subtitle {
     font-size: 1.2rem;
-    max-width: 850px;
+    max-width: 650px;
     opacity: 0.9;
-    margin: 40px auto 50px;
+    margin: 0 auto 50px;
     text-align: left;
 }
 
@@ -543,5 +552,8 @@ body.light-mode .step-card {
     }
     .steps {
         grid-template-columns: 1fr;
+    }
+    .hero {
+        padding: 40px 20px 60px;
     }
 }
