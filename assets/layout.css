@@ -20,7 +20,7 @@ body.dark-mode {
 
 body.light-mode {
     background: #F6F7FB;
-    color: #0B0E14;
+    color: #999;
 }
 
 
@@ -46,8 +46,11 @@ body.light-mode {
 }
 
 .logo {
-    font-weight: 700;
-    font-size: 1.25rem;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.logo-part {
+    font-weight: 100;
 }
 
 .desktop-nav {
