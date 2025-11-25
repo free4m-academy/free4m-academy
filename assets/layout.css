@@ -65,6 +65,7 @@ body.light-mode {
 .desktop-nav {
     display: flex;
     gap: 28px;
+    letter-spacing: 2px;
 }
 
 .desktop-nav .nav-link {
@@ -73,6 +74,9 @@ body.light-mode {
     font-size: 1rem;
     opacity: 0.9;
     transition: opacity 0.2s ease;
+}
+.join {
+    font-weight: bolder;
 }
 
 .desktop-nav .nav-link:hover {
@@ -166,7 +170,7 @@ body.light-mode {
 
 .hero {
     width: 100%;
-    padding: 140px 20px 160px;
+    padding: 100px 20px 160px;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -258,7 +262,7 @@ body.light-mode {
 
 
 .hero-title {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 700;
     max-width: 650px;
     margin: 0 auto 40px;
@@ -266,10 +270,10 @@ body.light-mode {
 }
 
 .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
     max-width: 650px;
     opacity: 0.9;
-    margin: 0 auto 50px;
+    margin: 0 auto 40px;
     text-align: left;
 }
 
