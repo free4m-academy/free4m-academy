@@ -157,7 +157,7 @@ body.light-mode {
 
 .hero {
     width: 100%;
-    padding: 140px 20px 160px;
+    padding: 140px 30% 160px;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -253,13 +253,15 @@ body.light-mode {
     font-weight: 700;
     max-width: 900px;
     margin: 0 auto 18px;
+    text-align: left;
 }
 
 .hero-subtitle {
     font-size: 1.2rem;
     max-width: 850px;
     opacity: 0.9;
-    margin: 0 auto 32px;
+    margin: 40px auto 50px;
+    text-align: left;
 }
 
 /* CTA BUTTON */
@@ -465,6 +467,14 @@ body.light-mode .step-card {
     /* Soft edge only */
     filter: blur(1px);
 	z-index: -1;
+}
+
+.mission-text {
+    width: 100%;
+    padding: 0 20% 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
 }
 
 
