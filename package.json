@@ -9,7 +9,6 @@
     "type": "git",
     "url": "git+https://github.com/free4m-academy/free4m-academy.git"
   },
-  "main": "index.js",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build"
